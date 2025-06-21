@@ -1,9 +1,35 @@
 import mongoose from 'mongoose';
 import { DB_name } from './constant'; 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 import express from 'express';
-
-
 (async()=>{
     try{
          awaitmongoose.connect(`${process.env.MONGO_URI}/${DB_name}`)
@@ -17,3 +43,4 @@ import express from 'express';
         throw error
     }
 })()
+    */
