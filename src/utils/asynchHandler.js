@@ -1,5 +1,5 @@
 //Using Promise to handle asynchronous errors in Express.js
-const asynchHandler = (requestHandler) => {(req,res,nex)=> {
+const asynchHandler = (requestHandler) => {return (req,res,nex)=> {
     Promise.resolve(requestHandler(req,res,next)).
     catch((err) => next(err));
     }
